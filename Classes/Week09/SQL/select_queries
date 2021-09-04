@@ -1,0 +1,3 @@
+select * from tb_listings;
+
+select * from tb_advertisers limit 10;
