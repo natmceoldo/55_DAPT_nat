@@ -12,27 +12,27 @@ If you get stuck on any of the tasks in this lab, you can reference the excellen
 
 To complete this lab, follow each of the steps below.
 
-1. Open the [data set](https://docs.google.com/spreadsheets/d/1pQ2VFsuuwLqBstYYTY3fcZY32WLigw3Pzxnikkce6IA/edit?usp=sharing) in a browser.
-2. Download the dataset in CSV format.
-3. Launch the Tableau Public application.
-4. Import the dataset into Tableau through the `Text File` option.
-5. Once the data set has been imported, change the data type for the `Year` field to string.
-6. Create a new field called Quarter by [binning](https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_bins.htm) the month field using a bin size of 4.
-7. Create a new worksheet, drag the newly-created Quarter field into the Rows section, and drag the Number of Records measure to the center of the view. You will notice that the quarters are currently named labeled 0, 4, 8, 12. [Rename](https://onlinehelp.tableau.com/current/pro/desktop/en-us/datafields_fieldproperties_aliases_ex1editing.htm) them more intuitively by right-clicking on the Quarter dimension, selecting Aliases and changing their names to Q1, Q2, Q3, and Q4 respectively.
-8. Create new worksheets with tabular views for each of the following metrics.
-    - Total Retail Sales by Year/Quarter (rows).
-    - Average Retail Sales by Year/Quarter (rows).
-    - Total Retail Sales by Year/Month (rows) and Item Type (columns).
-    - Average Retail Sales by Year/Month (rows) and Item Type (columns).
-    - Total Retail Transfers by Year/Quarter (rows).
-    - Average Retail Transfers by Year/Quarter (rows).
-    - Total Retail Transfers by Year/Month (rows) and Item Type (columns).
-    - Average Retail Transfers by Year/Month (rows) and Item Type (columns).
-    - Total Warehouse Sales by Year/Quarter (rows).
-    - Average Warehouse Sales by Year/Quarter (rows).
-    - Total Warehouse Sales by Year/Month (rows) and Item Type (columns).
-    - Average Warehouse Sales by Year/Month (rows) and Item Type (columns).
-9. Save your work to Tableau Public, ensure that your workbook is viewable. It might take several minutes for this workbook to save to Tableau Public due to the number of records in the data set.
+1. - [x] Open the [data set](https://docs.google.com/spreadsheets/d/1pQ2VFsuuwLqBstYYTY3fcZY32WLigw3Pzxnikkce6IA/edit?usp=sharing) in a browser.
+2. - [x] Download the dataset in CSV format.
+3. - [x] Launch the Tableau Public application.
+4. - [x] Import the dataset into Tableau through the `Text File` option.
+5. - [x] Once the data set has been imported, change the data type for the `Year` field to string.
+6. - [x] Create a new field called Quarter by [binning](https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_bins.htm) the month field using a bin size of 4.
+7. - [x] Create a new worksheet, drag the newly-created Quarter field into the Rows section, and drag the Number of Records measure to the center of the view. You will notice that the quarters are currently named labeled 0, 4, 8, 12. [Rename](https://onlinehelp.tableau.com/current/pro/desktop/en-us/datafields_fieldproperties_aliases_ex1editing.htm) them more intuitively by right-clicking on the Quarter dimension, selecting Aliases and changing their names to Q1, Q2, Q3, and Q4 respectively.
+8. - [x] Create new worksheets with tabular views for each of the following metrics.
+    - - [x] Total Retail Sales by Year/Quarter (rows).
+    - - [x] Average Retail Sales by Year/Quarter (rows).
+    - - [x] Total Retail Sales by Year/Month (rows) and Item Type (columns).
+    - - [x] Average Retail Sales by Year/Month (rows) and Item Type (columns).
+    - - [x] Total Retail Transfers by Year/Quarter (rows).
+    - - [x] Average Retail Transfers by Year/Quarter (rows).
+    - - [x] Total Retail Transfers by Year/Month (rows) and Item Type (columns).
+    - - [x] Average Retail Transfers by Year/Month (rows) and Item Type (columns).
+    - - [x] Total Warehouse Sales by Year/Quarter (rows).
+    - - [x] Average Warehouse Sales by Year/Quarter (rows).
+    - - [x] Total Warehouse Sales by Year/Month (rows) and Item Type (columns).
+    - - [x] Average Warehouse Sales by Year/Month (rows) and Item Type (columns).
+9. - [x] Save your work to Tableau Public, ensure that your workbook is viewable. It might take several minutes for this workbook to save to Tableau Public due to the number of records in the data set.
 
 ## Resources
 
