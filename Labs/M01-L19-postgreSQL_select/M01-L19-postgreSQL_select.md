@@ -2,13 +2,15 @@
 
 ## Introduction
 In this lab you will practice `SELECT` statement which will be extremely useful in your future work as a data analyst/scientist/engineer.  
-- Use code from `publications_database.sql` to create your databese, tables and insert data. 
-  
-**1. Who have published what at where?**
+
+- [x] Use code from `publications_database.sql` to create your databese, tables and insert data.
+
+- [x] **1. Who have published what at where?**
 
 In this challenge you will write a PostgreSQL `SELECT` query that `JOIN` various tables to figure out what titles each author has published at which publishers.   
 Your output should have at least the following columns:  
 From `authors` table:  
+
 - `au_id` - the ID of the author.
 - `au_lname` - author last name. 
 - `au_fname` - author first name.   
@@ -52,9 +54,11 @@ From `authors` table:
 - `au_lname` - author last name. 
 - `au_fname` - author first name. 
   
+
 From `sales` table:
 - `qty` - quantity
   
+
 Your output should be ordered based on `TOTAL` from high to low.  
 Only output the top 3 best selling authors.
 
